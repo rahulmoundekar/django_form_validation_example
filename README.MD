@@ -2,7 +2,7 @@
 
  Before & After submitting data to the server, it is important to ensure all required form controls are filled out, in the correct format. 
 
-# What is Internationalization?
+# What is Validation?
 Go to any popular site with a registration form, and you will notice that they provide feedback when you don't enter your data in the format they are expecting. You'll get messages such as:
 
  * "This field is required" (You can't leave this field blank).
