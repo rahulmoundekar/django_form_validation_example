@@ -1,0 +1,20 @@
+{% load bootstrap3 %}
+<head>
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    {% bootstrap_messages %}
+</head>
+<div class="container">
+    <form class="form-horizontal" method="post" action="/">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Student Registration Name</legend>
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            {% buttons %}
+            <button type="submit" class="btn btn-success btn-block">{% bootstrap_icon "star" %} Register</button>
+            {% endbuttons %}
+        </fieldset>
+    </form>
+</div>
